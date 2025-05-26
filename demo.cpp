@@ -1,14 +1,10 @@
 #include <iostream>
 #include "route.h"
-#include "navigation_app.cpp"
-#include "car_route.cpp"
-#include "walk_route.cpp"
-#include "bike_route.cpp"
 
 using namespace std;
 
 int main() {
-    cout << "      TRAVEL PLANNER    \n";
+    cout << "=====TRAVEL PLANNER=====\n";
 
     cout << "Available locations:\n";
     cout << "  - home\n";
